@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+body{ 
+	background-color: #22aaee;
+}
+
+h1{
+	color: #ffffff;
+	text-align: center;
+}
+
+a{
+	font-size: 25px;
+}
+
+a:visited{
+	color: #ffffff;
+}
+
+span{
+	display: block;
+	text-align: center;
+}
+
+span.error {
+    color: #FF0000;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Lighting Control</h1>
+<br>
+<br>
+<span class="error">{{.Error}}</span>
+<span><a href="?op=On">On</a></span>
+<span><a href="?op=Off">Off</a></span>
+<span><a href="?op=Inc">Brighter</a></span>
+<span><a href="?op=Dec">Dimmer</a></span>
+
+</body>
+
+
+</html>
